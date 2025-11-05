@@ -1,0 +1,29 @@
+/* Global Star Wars Dark Theme */
+body {
+  background-color: #000; /* pure black */
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  background-image: radial-gradient(circle at center, #111 0%, #000 100%);
+  overflow-x: hidden;
+}
+
+.glow-hero {
+  box-shadow: 0 0 15px 2px #00ff7f; /* green glow */
+  border: 1px solid #00ff7f;
+}
+
+.glow-villain {
+  box-shadow: 0 0 15px 2px #ff073a; /* red glow */
+  border: 1px solid #ff073a;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
