@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Loader2, AlertCircle } from 'lucide-react';
-import type { Character } from '../types';
+import type { Character } from './types';
 import './App.css';
 
 import { useCharacters } from './hooks/useCharacters';

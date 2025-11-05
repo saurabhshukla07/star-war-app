@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Film, Globe, Calendar, Ruler, Weight, Loader2 } from 'lucide-react';
+import { X, Globe, Loader2 } from 'lucide-react';
 import type { Character, Homeworld } from '../types/index.ts';
 import { api } from '../services/api';
 import { formatDate, formatHeight, formatMass, formatPopulation } from '../utils/formatters';
